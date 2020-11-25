@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FileManager.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace FileManager
         public MainWindow()
         {
             InitializeComponent();
+            Login loginView = new Login();
+            loginView.Show();
         }
     }
 }
